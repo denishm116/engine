@@ -37,7 +37,7 @@ class HomeController extends Controller
     {
         return response()->json([
             'success' => true,
-'data' => 'From Laravel'
+    'data' => 'From Laravel'
 //            'user' => $request->user()
         ]);
     }
